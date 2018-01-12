@@ -1,6 +1,5 @@
 #include <stdio.h>
 #define N 51
-
 void main(void)
 {
     double step, y, x;
