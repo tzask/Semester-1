@@ -1,8 +1,6 @@
 #include <stdio.h>
 #define _USE_MATH_DEFINES
-#include <math.h>  
-
-//Zaskorodnia Tetiana KN-11z
+#include <math.h>
 
 static double
 modified_fact (int n)

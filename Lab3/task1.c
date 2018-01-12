@@ -1,6 +1,6 @@
 #include <stdio.h>
 #define N 51
-//Zaskorodnia Tetiana KN-11z
+
 void main(void)
 {
     double step, y, x;
