@@ -17,7 +17,6 @@ modified_fact (int n)
             }
             return result;
         }}
-
 int
 main (void)
 {
