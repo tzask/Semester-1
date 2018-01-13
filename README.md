@@ -1,6 +1,14 @@
 # Semester-1
 my university labs (September-December 2016)
 
+* [Lab2](##Lab2)
+* [Lab3](##Lab3)
+* [Lab4](##Lab4)
+* [Lab5](##Lab5)
+* [Lab6](##Lab6)
+* [Lab7](##Lab7)
+* [Lab8](##Lab8)
+
 ## Lab2
 
 ### Task 1
@@ -206,7 +214,6 @@ x = 3.000000 y = -9.942768
 #### Output:
 
 ![81](https://user-images.githubusercontent.com/25325868/34900966-4e658f46-f80d-11e7-99f7-e0e8ce90db1d.png)
-
 
 ### Task 2
 
