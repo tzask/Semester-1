@@ -144,7 +144,7 @@ x = 3.000000 y = -9.942768
 
 ![44](https://user-images.githubusercontent.com/25325868/34900086-c9b28d5a-f805-11e7-9568-43d5c90273b3.png)
 
-## Lab
+## Lab5
 
 ### Task 1
 
@@ -167,9 +167,18 @@ x = 3.000000 y = -9.942768
 
 ![52](https://user-images.githubusercontent.com/25325868/34900455-dd110fa4-f808-11e7-9408-2e95e4ca00cd.png)
 
+## Lab6
 
+### Task 1
 
+#### Task in Ukrainian:
+Задано стрічку з трьох слів. Виділити окремі слова і записати їх в масив. Вивести масив слів у зворотному порядку. 
 
+#### Output:
+
+![61](https://user-images.githubusercontent.com/25325868/34900632-5ca5addc-f80a-11e7-8dde-e0e2a2d8a4af.png)
+
+![62](https://user-images.githubusercontent.com/25325868/34900631-5c712378-f80a-11e7-9dda-27f6dcdba8b6.png)
 
 
 
