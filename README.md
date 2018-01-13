@@ -1,13 +1,13 @@
 # Semester-1
 my university labs (September-December 2016)
 
-* [Lab2](##Lab2)
-* [Lab3](##Lab3)
-* [Lab4](##Lab4)
-* [Lab5](##Lab5)
-* [Lab6](##Lab6)
-* [Lab7](##Lab7)
-* [Lab8](##Lab8)
+* [Lab2](##lab2)
+* [Lab3](##lab3)
+* [Lab4](##lab4)
+* [Lab5](##lab5)
+* [Lab6](##lab6)
+* [Lab7](##lab7)
+* [Lab8](##lab8)
 
 ## Lab2
 
