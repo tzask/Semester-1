@@ -8,7 +8,7 @@ int main (void)
     int i, j;
     char choice;
 
-    //меню для выбора способа ввода массива
+    //menu for choosing how you'd like enter your array
     printf("Choose the way you want to fill in the array[25]:\n");
     printf("Press 'f' if you want to take an array from a file.\n");
     printf("Press 'w' if you want to write an array by yourself.\n");
@@ -16,7 +16,7 @@ int main (void)
     scanf("%c", &choice);
     switch ( choice )
     {
-    case 'f': //чтение с файла
+    case 'f': //reading from the file
     {
         char file_name[100];
         printf("\nEnter file's name from program's directory:\n");
@@ -39,7 +39,7 @@ int main (void)
         fclose (array_file);
     }
     break;
-    case 'w': // ввод с клавиатуры
+    case 'w': // keyboard input
     {
         printf("\n\nEnter array[25] with values in the range [-8; 15]\n");
         for(i = 0; i < ARR_LENGTH; i++)
@@ -53,7 +53,7 @@ int main (void)
         }
     }
     break;
-    case 'r': //создаем рендомный массив
+    case 'r': //random array
     {
         srand ( time(NULL) );
         for(i = 0; i < ARR_LENGTH; i++)
@@ -65,13 +65,13 @@ int main (void)
     default: printf("\nError! There's no such a choice.\n");
              return 0;
     }
-        //вывод на экран
+        //output
         printf("\nOur array:\n");
         for(i = 0; i < ARR_LENGTH; i++)
         {
             printf("%d ", array [i]);
         }
-        //линейный поиск по массиву
+        //linear search
         int element, no_element;
         no_element = 0;
         printf("\n\nEnter the element you want to find in this array:\n");
@@ -84,13 +84,13 @@ int main (void)
                 no_element ++;
             }
         }
-        // проверка результата
+        //result check
         if (no_element == 0)
         {
             printf("\n\nThe search is finished. Sorry, we haven't found any matching elements.\n");
         } else printf("\n\nThe search is finished. We have found %d matching element(s).\n", no_element);
 
-        //изменение массива в соответствии с заданием
+        //changing the array according to the task
         printf("\n\nNow we will change this array according to our task:\n");
 
         int fi, // forward index
@@ -127,27 +127,27 @@ int main (void)
             }
         }
 
-        //вывод на экран
+        //output
         printf("\nOur changed array:\n");
         for(i = 0; i < ARR_LENGTH; i++) printf("%d ", array [i]);
 
-        //сортировка пузырьком
+        //bubble sort
         printf("\n\nNow we will sort this array (bubble sort).\n");
         for(i = 0 ; i < ARR_LENGTH - 1; i++)
         {
-            // сравниваем два соседних элемента
+            // compare to elements
             for(j = 0 ; j < ARR_LENGTH - i - 1 ; j++)
             {
                 if(array[j] > array[j+1])
                 {
-                    // если они идут в неправильном порядке, то меняем их местами
+                    // swap
                     int tmp = array[j];
                     array[j] = array[j+1] ;
                     array[j+1] = tmp;
                 }
             }
         }
-        //вывод на экран
+        //output
         printf("\nOur sorted array:\n");
         for(i = 0; i < ARR_LENGTH; i++) printf("%d ", array [i]);
     return 0;
